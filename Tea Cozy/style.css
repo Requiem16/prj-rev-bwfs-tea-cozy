@@ -1,0 +1,101 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/*header*/
+
+#header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: black;
+}
+
+#header img {
+  margin-left: 10px;
+  height: 50px;
+  }
+
+.nav {
+  margin-right: 10px;
+  float: right;
+}
+
+a:link {
+  color: seashell;
+}
+
+/*ourmission*/
+
+#ourmission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+}
+
+.text {
+  width: 1200px;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  position: relative;
+  top: 40%;
+  padding: 5px;
+}
+
+#totm {
+  text-align: center;
+  width: 1000px;
+}
+
+#totm img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.row1, .row2, .row3, .row4 {
+  align-content: space-around;
+}
+
+.row2, .row4 {
+  display: inline-block;
+}
+
+/*location*/
+
+#location {
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: auto;
+  text-align: center;
+}
+
+.one, .two, .three {
+  width: 300px;
+  padding: 15px 40px;
+  opacity: 1;
+  display: inline-block;
+  background-color: black;
+}
+
+/*footer*/
+
+.footer {
+  height: 200px;
+  text-align: center;
+}
+
+.left {
+  padding-left: 20px;
+  text-align: left;
+}
